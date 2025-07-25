@@ -72,8 +72,6 @@ The `dashboard_app.py` expects a processed dataset named `processed_data.csv` lo
 
 You can generate this file by running the cells in the `data_preprocesssing_and_analysis.ipynb` Jupyter Notebook. This notebook performs the necessary data loading, cleaning, and preprocessing steps, and saves the final `processed_data.csv` file.
 
-If the `processed_data.csv` file is not found, the dashboard application includes dummy data to allow it to run for demonstration purposes, but it's recommended to generate the actual data using the notebook for full functionality.
-
 ### 5. Run the Dashboard Application
 
 Once your environment is active and the data is prepared, run the Dash application:
